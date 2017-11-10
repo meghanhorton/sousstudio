@@ -1,16 +1,34 @@
 {
-"devDependencies": {
-  "gulp": "latest",
-  "gulp-sass": "latest",
-  "gulp-uglify": "latest",
-  "gulp-rename": "latest",
-  "gulp-notify": "latest",
-  "gulp-minify-css": "latest",
-  "gulp-concat": "latest",
-  "gulp-plumber": "latest",
-  "browser-sync": "latest",
-  "gulp-sourcemaps": "latest",
-  "gulp-autoprefixer": "latest",
-  "gulp-clean-css": "latest"
+  "name": "mysmartspice",
+  "description": "THEME: Resto - Free Bootstrap Theme AUTHOR: ProBootstrap.com AUTHOR URI: https://probootstrap.com/ Twitter: https://twitter.com/probootstrap Facebook: https://facebook.com/probootstrap",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meghanhorton/smartspiceweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meghanhorton/smartspiceweb/issues"
+  },
+  "homepage": "https://github.com/meghanhorton/smartspiceweb#readme",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-rename": "latest",
+    "gulp-notify": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-concat": "latest",
+    "gulp-plumber": "latest",
+    "browser-sync": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest"
   }
 }
