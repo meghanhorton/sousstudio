@@ -299,7 +299,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-navbar .navbar-brand {
   font-family: "Slabo 27px", serif;
-  padding: 10px;
+  padding: 5px 10px;
   border: thin solid #fff;
   color: #fff;
   font-size: 30px;
@@ -310,11 +310,27 @@ a:hover, a:focus, a:active {
   top: 40px;
   -webkit-transition: .2s all;
   transition: .2s all;
+  line-height: 30px;
 }
 
 .probootstrap-navbar .navbar-brand:hover {
   color: #fff;
   opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .probootstrap-navbar .navbar-brand {
+    position: relative;
+    font-size: 20px;
+    padding: 0 10px;
+    top: 10px;
+    left: 10px;
+    color: #000;
+    border-color: #000;
+  }
+  .probootstrap-navbar .navbar-brand:hover {
+    color: #000;
+  }
 }
 
 .probootstrap-navbar .navbar-nav > li > a {
@@ -465,7 +481,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar.scrolled .navbar-brand {
-  top: 10px;
+  top: 8px;
   background-position: left 100%;
   color: #000;
   border-color: #000;
@@ -1902,6 +1918,10 @@ section[data-section="menu"] {
   margin-top: 300px;
 }
 
+.flexslider .probootstrap-slider-text .primary-heading, .flexslider .probootstrap-slider-text .secondary-heading, .flexslider .probootstrap-slider-text .sub-heading {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
 @media screen and (max-width: 480px) {
   .flexslider .probootstrap-slider-text {
     margin-top: 150px;
@@ -1919,8 +1939,9 @@ section[data-section="menu"] {
 }
 
 .flexslider .slides > li {
-  background-size: cover;
-  background-repeat: none;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: none !important;
 }
 
 .flexslider .slides > li.overlay:before {
